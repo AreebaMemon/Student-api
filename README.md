@@ -36,8 +36,3 @@ npm start
 curl -X POST http://localhost:3000/api/students \
   -H "Content-Type: application/json" \
   -d '{"name": "Areeba Memon", "roll_no": "K21SW056"}'
-```
-
-```
-
----
