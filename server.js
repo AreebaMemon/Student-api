@@ -9,7 +9,7 @@ const port = 5000;
 app.use(cors());
 app.use(bodyParser.json());
 
-mongoose.connect("mongodb://127.0.0.1:27017/pbl_api")
+mongoose.connect("mongodb://127.0.0.1:27017/student_api")
   .then(() => console.log("MongoDB connected"))
   .catch(err => console.error("DB Connection error:", err));
 
@@ -23,5 +23,6 @@ app.get("/", (req, res) => {
 app.listen(port, () => {
   console.log(`🚀 Server running on http://localhost:${port}`);
 });
+
 
 
