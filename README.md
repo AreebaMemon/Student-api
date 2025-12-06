@@ -16,11 +16,6 @@ Start the server:
 node server.js
 ```
 
-or
-
-```bash
-npm start
-```
 
 ## API Endpoints
 
